@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    overflow-y: auto;
+  }
+  
+  .right {
+    flex: 2;
+    padding: 20px;
+    background-color: #fff;
+    overflow-y: auto;
+  }
+  
+  .heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .notes-container {
+    margin-top: 20px;
+  }
+  
+  .note {
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .note:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .md-editor {
+    height: calc(100% - 20px);
+  }
+  
